@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Norican&display=swap");
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://accgroup.vn/wp-content/uploads/2023/02/Background-la-gi.jpg") no-repeat
+    center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.main {
+  margin-top: 5rem;
+  font-family: "Norican", cursive;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.main h1 {
+  padding: 6rem;
+  line-height: 1.5;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.button {
+  margin: auto;
+  padding: 10px 30px;
+  color: #30336b;
+  border: 1px solid #30336b;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: 500ms all ease-in-out;
+}
+
+.button:hover,
+.button:focus-visible {
+  outline: none;
+  border: 1px solid #ff7979;
+  color: #ff7979;
+  border-radius: 20px;
+}
